@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".GetStartedActivity"
+android:background="@color/black">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="120dp">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="340dp"
+        android:layout_height="360dp"
+        app:srcCompat="@drawable/getstarted_img"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/bold_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weather, Wherever"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="45dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quickly and easily find weather predictions \n wherever you go, whenever you need."
+        android:textColor="@color/white"
+        android:layout_below="@+id/bold_text"
+        android:gravity="center_horizontal"
+        android:textSize="16dp"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Started"
+        android:textSize="25dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginHorizontal="30dp"
+        android:backgroundTint="#5B1AEF"/>
+
+
+
+</LinearLayout>
+
+</RelativeLayout>
